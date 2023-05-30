@@ -170,7 +170,6 @@ function addTodo() {
 	tableContent.push(todo);
 	// renderTable(tableContent);
 	const newRow = createNewRow(tableContent.length, todo);
-	// newRow.style.opacity = 0;
 	newRow.classList.add('new-row');
 
 	table.children[1].appendChild(newRow);
